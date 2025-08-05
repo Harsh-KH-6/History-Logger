@@ -30,4 +30,6 @@ jobs:
         git config --global user.email "harsh@example.com"
         git add .
         git commit -m "📚 Update Today in History for $(date +'%Y-%m-%d')" || echo "No changes to commit"
-        git push 
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
