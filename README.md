@@ -139,4 +139,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Happy coding and learning history! 📚✨** 
+**Happy coding and learning history! 📚✨**
