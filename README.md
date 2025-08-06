@@ -2,13 +2,15 @@
 
 An automated GitHub repository that logs historical events for each day, creating a daily commit to maintain your GitHub activity streak! 🎯
 
+---
 ## 🌟 Features
 
 - **Daily Historical Events**: Fetches 3 random historical events for each day
 - **Automatic Commits**: GitHub Actions runs daily at 5 AM UTC
 - **Markdown Format**: Clean, readable format for each day's events
-- **GitHub Activity**: Maintains your daily commit streak automatically
 - **Manual Trigger**: Can be triggered manually via GitHub Actions
+  
+---
 
 ## 📁 Project Structure
 
@@ -23,6 +25,7 @@ today-in-history-logger/
     └── workflows/
         └── history.yml  ← GitHub Action (runs daily)
 ```
+---
 
 ## 🚀 How It Works
 
@@ -51,6 +54,7 @@ Each day generates a file like `history/2024-01-15.md`:
 📅 Year: 2001  
 📝 Event: Wikipedia is launched by Jimmy Wales and Larry Sanger
 ```
+---
 
 ## 🛠️ Setup Instructions
 
@@ -133,10 +137,3 @@ You can modify the API URL in `history_logger.py` to use different historical da
 
 Feel free to fork this repository and customize it for your needs!
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-**Happy coding and learning history! 📚✨**
