@@ -87,6 +87,7 @@ You can test the script locally:
 pip install -r requirements.txt
 python history_logger.py
 ```
+---
 
 ## ⚙️ Configuration
 
@@ -98,6 +99,7 @@ The workflow runs daily at 5 AM UTC. To change the schedule, edit `.github/workf
 schedule:
   - cron: '0 5 * * *'  # Change this to your preferred time
 ```
+---
 
 ### Manual Trigger
 
@@ -106,12 +108,7 @@ You can manually trigger the workflow:
 2. Click on "Daily History Logger"
 3. Click "Run workflow"
 
-## 📊 GitHub Activity
-
-This project will help you maintain a consistent GitHub activity streak by:
-- Creating daily commits automatically
-- Adding meaningful content each day
-- Building a historical knowledge base
+---
 
 ## 🔧 Customization
 
@@ -128,11 +125,11 @@ Edit `.github/workflows/history.yml` line 25:
 ```yaml
 git commit -m "📚 Update Today in History for $(date +'%Y-%m-%d')"
 ```
-
 ### Add More Historical Data Sources
 
 You can modify the API URL in `history_logger.py` to use different historical data sources.
 
+---
 ## 🤝 Contributing
 
 Feel free to fork this repository and customize it for your needs!
