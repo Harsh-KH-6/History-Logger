@@ -1,4 +1,4 @@
-# Today in History Logger 📚
+ # Today in History Logger 📚
 
 An automated GitHub repository that logs historical events for each day, creating a daily commit to maintain your GitHub activity streak! 🎯
 
@@ -33,7 +33,6 @@ today-in-history-logger/
 2. **API Fetch**: Fetches historical data from the History API
 3. **Random Selection**: Picks 3 random events from the day's historical events
 4. **Markdown Generation**: Creates a formatted markdown file
-5. **Auto Commit**: Commits and pushes the new file to maintain your streak
 
 ## 📅 Sample Output
 
