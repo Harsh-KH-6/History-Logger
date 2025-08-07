@@ -1,6 +1,6 @@
  # Today in History Logger 📚
 
-An automated GitHub repository that logs historical events for each day, creating a daily commit to maintain your GitHub activity streak! 🎯
+An automated GitHub repository that logs historical events for each day.
 
 ---
 ## 🌟 Features
