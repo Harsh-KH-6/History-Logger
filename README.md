@@ -37,7 +37,7 @@ today-in-history-logger/
 
 ## 📅 Sample Output
 
-Each day generates a file like `history/2024-01-15.md`:
+Each day generates a file like `history/2025-01-15.md`:
 
 ```markdown
 # Today in History - January 15
