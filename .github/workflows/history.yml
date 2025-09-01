@@ -26,8 +26,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --global user.name "Harsh Bot"
-        git config --global user.email "harsh@example.com"
+        git config --global user.name "Harsh"
+        git config --global user.email "ugs23042_it.harsh@cbit.org.in"
         git add .
         git commit -m "📚 Update Today in History for $(date +'%Y-%m-%d')" || echo "No changes to commit"
         git push
